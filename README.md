@@ -4,34 +4,32 @@
 
 ## Ясный и живой текст
 
-`human-prose` помогает писать рабочие статьи, письма, записки для руководителей, презентации и рассказы. Он выстраивает главный тезис, связывает разделы и абзацы и помогает сохранить авторский голос. В основе пять книг по письму и редактуре, в том числе «Принцип пирамиды Минто».
+`human-prose` помогает писать рабочие статьи, письма, записки для руководителей, презентации и рассказы. Он выстраивает главный тезис, связывает разделы и абзацы и помогает сохранить авторский голос.
 
-[Инструкция навыка](skills/human-prose/SKILL.md) · [Примеры работы со структурой](skills/human-prose/references/structure-examples.md) · [Книги и главы](skills/human-prose/references/sources.md)
+[Инструкция навыка](skills/human-prose/SKILL.md) · [Примеры работы со структурой](skills/human-prose/references/structure-examples.md)
 
 ### Установка в Codex
 
-<a href="https://chatgpt.com/codex/open-app?mode=codex&amp;q=%24skill-installer%20%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BD%D0%B0%D0%B2%D1%8B%D0%BA%20human-prose%20%D0%B8%D0%B7%20https%3A%2F%2Fgithub.com%2Fikratkiy%2Fskills%2Ftree%2Fmain%2Fskills%2Fhuman-prose%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20Git%20%28--method%20git%29."><img alt="Открыть установку в Codex" src="assets/open-in-codex.png" width="179" height="35"></a>
+<a href="https://chatgpt.com/codex/open-app?mode=codex&amp;q=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%20%D0%BD%D0%B0%D0%B2%D1%8B%D0%BA%20human-prose%20%D0%B2%20Codex%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20Git%20%D0%B8%D0%B7%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8%20https%3A%2F%2Fgithub.com%2Fikratkiy%2Fskills%2Ftree%2Fmain%2Fskills%2Fhuman-prose"><img alt="Открыть установку в Codex" src="assets/open-in-codex.png" width="179" height="35"></a>
 
-Кнопка откроет настольный Codex с готовым запросом на установку. Отправьте его в чате. Если приложение не открылось, вставьте запрос вручную.
-
-```text
-$skill-installer Установи навык human-prose из https://github.com/ikratkiy/skills/tree/main/skills/human-prose через Git (--method git).
-```
-
-После установки попробуйте в новом чате.
+Кнопка открывает настольный Codex с готовым запросом. Отправьте его в чате, и Codex скачает навык из этой папки GitHub. Запрос также можно вставить вручную.
 
 ```text
-Используй $human-prose, чтобы выстроить мысль, связать абзацы и сохранить мой голос.
+Установи навык human-prose в Codex через Git из папки https://github.com/ikratkiy/skills/tree/main/skills/human-prose
 ```
 
-<details>
-<summary>Установка как плагина через Codex CLI</summary>
+После установки попросите Codex использовать навык в новом чате.
 
-```sh
-codex plugin marketplace add ikratkiy/skills
-codex plugin add human-prose@ikratkiy-skills
+```text
+Используй навык human-prose, чтобы выстроить мысль, связать абзацы и сохранить мой голос.
 ```
 
-[Документация Codex по каталогам плагинов](https://developers.openai.com/plugins/build/plugins#add-a-marketplace-from-the-cli)
+### Книги
 
-</details>
+Правила и примеры уже собраны в `SKILL.md` и файлах `references/`. Сами книги понадобятся, если захотите свериться с оригиналом.
+
+- Барбара Минто. *Принцип пирамиды Минто*. Перевод Ирины и Юлии Юрчик, 9-е издание.
+- Максим Ильяхов и Людмила Сарычева. *Пиши, сокращай. Как создавать сильный текст*. 4-е издание.
+- Joseph M. Williams и Joseph Bizup. *Style: Lessons in Clarity and Grace*. 12-е издание.
+- William Zinsser. *On Writing Well*. 6-е издание.
+- Roy Peter Clark. *Writing Tools: 55 Essential Strategies for Every Writer*. Юбилейное издание.
